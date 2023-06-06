@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0px 90px;
+}
+
+
+/* navbar  */
+.navbar {
+    display: flex;
+    margin: 55px 0px 0px 0px;
+}
+
+.nav-logo img {
+    width: 170px;
+}
+
+.nav-list {
+    margin: 7px 0px 0px 600px;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style-type: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-list ul li {
+    margin: 0px 25px;
+}
+
+.nav-list ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-hire-developer {
+    width: 200px;
+    height: 50px;
+    margin: -2px 0px 0px 0px;
+    background-color: #4e0fea;
+    border-radius: 5px;
+    padding:7px 12px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.btn-hire-developer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* main */
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 0px 0px;
+    height: 100vh;
+}
+
+.main-left {
+    padding: 100px 0px 0px 0px;
+}
+
+.main-left-head {
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    font-weight: bolder;
+    color: #2b2a2f;
+}
+
+.main-left-info {
+    font-family: sans-serif;
+    margin: 25px 0px;
+    font-size: 19px;
+    color: #2b2a2f;
+}
+
+
+
+
+
+
+
+
+
+/* companies-trust-section */
+
+.trust {
+    margin: 90px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies span {
+    margin: 50px 25px;
+}
+
+.companies .c1 {
+    height: 70px;
+    width: 80px;
+}
+
+.companies .c2 {
+    height: 70px;
+    width: 180px;
+}
+
+.companies .c3 {
+    height: 35px;
+    width: 190px;
+}
+
+.companies .c4 {
+    height: 55px;
+    width: 180px;
+}
+
+.companies .c5 {
+    height: 70px;
+    width: 220px;
+}
+
+
+
+/* meet talent section  */
+
+.talent-head {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.boxes {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 60px 20px;
+    height: 500px;
+    width: 340px;
+    border: 1px solid rgba(107, 107, 107, 0.815);
+    border-radius: 25px;
+
+    padding: 20px 36px;
+}
+.box .cir{
+    text-align:center;
+}
+
+.box-head {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.box-sub-head {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #747486;
+    margin:30px 0px;
+    text-align: center;
+}
+
+.box-info
+{
+    text-align: justify;
+    color:#2b2a2f;
+    font-style:normal;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    margin: 40px 0px;
+}
